@@ -17,7 +17,7 @@ on Windows and Linux support when I have a machine that run those OSs (probably
 will only start in September-November 2023). Here is a table of supported functionality
 across OSs.
 
-| Feature   | MacOS | Windows | Linux |
-| --------- | ----- | ------- | ----- |
-| Compiling | ✅    | ❌      | ❌    |
+| Feature      | MacOS | Windows | Linux |
+| ------------ | ----- | ------- | ----- |
+| Compiliation | ✅    | ❌      | ❌    |
 
