@@ -9,6 +9,12 @@ or be ready in any sort of near future.
 Lightbox will use Vulkan even for mac. But in the future it might expand to more
 options.
 
+## Projects
+
+This repository contains two projects: LBX and sandbox. LBX contains all of the source
+code for the lightbox engine itself. Sandbox is a test bed to test different functionality.
+This is NOT a unit test project. In the future there will be a separate unit testing project.
+
 ## Supported platforms
 
 I use MacOS and do not have access to a Windows or Linux machine (yet). I do plan
