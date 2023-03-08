@@ -19,5 +19,5 @@ across OSs.
 
 | Feature   | MacOS | Windows | Linux |
 | --------- | ----- | ------- | ----- |
-| Compiling | [x]   | [ ]     | [ ]   |
+| Compiling | ✅    | ❌      | ❌    |
 
