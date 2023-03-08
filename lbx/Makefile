@@ -19,7 +19,10 @@ LT = libtool
 
 .PHONY: all clean
 
-all: $(TARGET)
+all: pre_build $(TARGET)
+
+pre_build:
+	@echo "@@ Building LBX @@"
 
 $(TARGET): $(OBJS)
 	$(LT) -static -o $@ $(OBJS)

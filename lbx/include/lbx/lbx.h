@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void test_func();
+void test_func(void);
 
 #endif
 

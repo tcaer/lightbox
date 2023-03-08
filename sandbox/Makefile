@@ -19,7 +19,10 @@ LDFLAGS += ../lbx/bin/lbx.a
 
 .PHONY: all lib clean
 
-all: lib $(TARGET)
+all: pre_build lib $(TARGET)
+
+pre_build:
+	@echo "@@ Building Sandbox @@"
 
 $(TARGET): $(OBJS)
 	$(CC) $(OBJS) $(LDFLAGS) -o $(TARGET)
@@ -29,7 +32,7 @@ $(BIN)/%.o: src/%.c Makefile
 	$(CC) -MMD -MP -c $(CCFLAGS) $< -o $@
 
 lib:
-	@echo "@@ Building Libraries @@"
+	@echo "- Building Libraries"
 	cd ../lbx && make
 
 clean:
