@@ -4,16 +4,24 @@ Lightbox is a game engine I'm building in C. I chose to use C because I thought
 it would be a fun challenge. I don't intend for this engine to be used by others
 or be ready in any sort of near future. 
 
-## Rendering
-
-Lightbox will use Vulkan even for mac. But in the future it might expand to more
-options.
-
 ## Projects
 
 This repository contains two projects: LBX and sandbox. LBX contains all of the source
 code for the lightbox engine itself. Sandbox is a test bed to test different functionality.
 This is NOT a unit test project. In the future there will be a separate unit testing project.
+
+## Compiling
+
+This project is setup using Make and clang. Simply run `make` to build both the lightbox library
+and the sandbox executable. `make lbx` will make just the library and `make sandbox` will
+make just the sandbox. You can also use `make run` to automatically build both and execute
+the sandbox.
+
+## Rendering
+
+Lightbox will use Vulkan even for mac. But in the future it might expand to more
+options.
+
 
 ## Supported platforms
 
