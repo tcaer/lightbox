@@ -1,6 +1,9 @@
 # Compile options
 bin
+
+# Bear
 compile_commands.json
+.cache
 
 .DS_Store
 
