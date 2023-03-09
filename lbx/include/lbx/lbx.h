@@ -25,6 +25,18 @@ typedef double f64;
 typedef int b32;
 typedef char b8;
 
+#define true 1
+#define false 0
+
+/* Platform Detection */
+#ifdef __APPLE__
+  #define LBX_PLATFORM_APPLE 1
+  #include <TargetConditionals.h>
+  #if TARGET_OS_MAC
+    #define LBX_PLATFORM_MAC 1
+  #endif
+#endif
+
 void test_func(void);
 
 #endif
